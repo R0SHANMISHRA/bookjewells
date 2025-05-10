@@ -1,0 +1,29 @@
+# Virtual environment
+venv/
+*.pyc
+__pycache__/
+db.sqlite3  # SQLite database (if used)
+.env        # Environment variables (for secrets and API keys)
+
+
+# Node.js dependencies
+node_modules/
+build/
+dist/
+
+
+# Logs & Temporary Files
+*.log
+*.cache
+
+# VS Code & IDE settings
+.vscode/
+.idea/
+
+# Django Static & Media Files (if auto-generated)
+staticfiles/
+media/
+
+# OS-specific files
+.DS_Store
+Thumbs.db
